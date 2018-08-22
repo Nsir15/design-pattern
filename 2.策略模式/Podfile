@@ -1,0 +1,19 @@
+# platform :ios, '9.0'
+
+target '2.策略模式' do
+  # use_frameworks!
+
+  # Pods for 2.策略模式
+  pod 'PopoverObjC'
+  
+  target '2.策略模式Tests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target '2.策略模式UITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
